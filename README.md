@@ -1,9 +1,8 @@
-
 #include <JsonParserGeneratorRK.h>
 #include <Grove_Temperature_And_Humidity_Sensor.h>
 
-#define DELAY_TIME 3000 // 30 seconds between readings
-#define DHT_PIN 03
+#define DELAY_TIME 30000 // 30 seconds between readings
+#define DHT_PIN D3
 
 DHT dht(DHT_PIN);
 
